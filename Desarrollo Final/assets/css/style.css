@@ -1186,6 +1186,7 @@ section {
   overflow: hidden;
   border-right: 3px solid #fff;
   border-bottom: 3px solid #fff;
+  position: relative; /* Nueva línea */
 }
 
 .gallery .gallery-item img {
@@ -1195,6 +1196,40 @@ section {
 .gallery .gallery-item:hover img {
   transform: scale(1.1);
 }
+
+.gallery-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none; /* Nueva línea */
+}
+
+.gallery-item:hover .gallery-caption {
+  opacity: 1;
+  pointer-events: auto; /* Nueva línea */
+}
+
+.gallery-caption h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.gallery-caption p {
+  font-size: 14px;
+}
+
 
 /*--------------------------------------------------------------
 # Sponsors
