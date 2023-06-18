@@ -1197,16 +1197,16 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Chefs
+# Sponsors
 --------------------------------------------------------------*/
-.chefs {
-  background: url("../img/chefs-bg.jpg") center center no-repeat;
+.sponsors {
+  background: url("../img/sponsors-bg.jpg") center center no-repeat;
   background-size: cover;
   padding: 60px 0;
   position: relative;
 }
 
-.chefs::before {
+.sponsors::before {
   content: "";
   position: absolute;
   left: 0;
@@ -1217,22 +1217,22 @@ section {
   z-index: 9;
 }
 
-.chefs .container {
+.sponsors .container {
   position: relative;
   z-index: 10;
 }
 
-.chefs .member {
+.sponsors .cervezeria {
   text-align: center;
   margin-bottom: 80px;
   position: relative;
 }
 
-.chefs .member .pic {
+.sponsors .cervezeria .pic {
   overflow: hidden;
 }
 
-.chefs .member .member-info {
+.sponsors .cervezeria .cervezeria-info {
   position: absolute;
   bottom: -80px;
   left: 20px;
@@ -1245,7 +1245,7 @@ section {
   transition: max-height 0.5s ease-in-out;
 }
 
-.chefs .member h4 {
+.sponsors .cervezeria h4 {
   font-weight: 500;
   margin-bottom: 10px;
   font-size: 16px;
@@ -1255,7 +1255,7 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-.chefs .member h4::after {
+.sponsors .cervezeria h4::after {
   content: "";
   position: absolute;
   display: block;
@@ -1266,38 +1266,38 @@ section {
   left: calc(50% - 25px);
 }
 
-.chefs .member span {
+.sponsors .cervezeria span {
   font-style: italic;
   display: block;
   font-size: 13px;
 }
 
-.chefs .member .social {
+.sponsors .cervezeria .social {
   margin-top: 15px;
 }
 
-.chefs .member .social a {
+.sponsors .cervezeria .social a {
   transition: color 0.3s;
   color: #7a7368;
 }
 
-.chefs .member .social a:hover {
+.sponsors .cervezeria .social a:hover {
   color: #ffb03b;
 }
 
-.chefs .member .social i {
+.sponsors .cervezeria .social i {
   font-size: 16px;
   margin: 0 2px;
 }
 
 @media (max-width: 992px) {
-  .chefs .member {
+  .sponsors .cervezeria {
     margin-bottom: 110px;
   }
 }
 
 @media (min-width: 1024px) {
-  .chefs {
+  .sponsors {
     background-attachment: fixed;
   }
 }
