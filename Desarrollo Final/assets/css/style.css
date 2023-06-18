@@ -1636,3 +1636,69 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+/*--------------------------------------------------------------
+# Banner
+--------------------------------------------------------------*/
+
+#banner {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 75vh;
+  background-color: rgba(39, 37, 34, 0.8);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+.banner-content {
+  text-align: center;
+  z-index: 1;
+  color: #fff;
+}
+
+.banner h2 {
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.banner p {
+  width: 60%;
+  margin: 0 auto 30px auto;
+}
+
+.banner .btn-banner {
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 0 10px;
+  color: #fff;
+  border: 2px solid #ffb03b;
+}
+
+.banner .btn-banner:hover {
+  background: #ffb03b;
+  color: #fff;
+}
