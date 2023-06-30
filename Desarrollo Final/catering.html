@@ -25,6 +25,9 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -64,8 +67,8 @@
           <li><a class="nav-link scrollto" href="index.html#menu">Menu</a></li>
           <li><a class="nav-link scrollto" href="productos.html">Productos</a></li>
           <li><a class="nav-link scrollto" href="index.html#gallery">Galeria</a></li>
-          <li><a class="nav-link scrollto active" href="quienes-somos.html">Quienes Somos</a></li>
-          <li><a class="nav-link scrollto" href="catering.html">Catering</a></li>
+          <li><a class="nav-link scrollto" href="quienes-somos.html">Quienes Somos</a></li>
+          <li><a class="nav-link scrollto active" href="catering.html">Catering</a></li>
           
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -76,100 +79,90 @@
     </div>
   </header><!-- End Header -->
 
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h1 class="animate__animated animate__fadeInDown">Catering de <span>Burger</span> House</h1>
+                <p class="animate__animated animate__fadeInUp">¿Estás planeando un evento importante en tu vida y buscas una experiencia culinaria excepcional que impresione a tus invitados? En Burger House, entendemos lo especial y significativo que es ese momento para ti. Nos enorgullece ofrecer un servicio de catering único, donde la pasión por las hamburguesas de calidad y la excelencia en el servicio se combinan para crear recuerdos inolvidables. Nuestro compromiso con la frescura de los ingredientes, la preparación artesanal y la atención meticulosa a los detalles nos convierte en la elección perfecta para hacer de tu evento un verdadero éxito. Deja que nuestro equipo experto se encargue de todos los aspectos culinarios mientras tú te concentras en disfrutar y crear momentos memorables junto a tus seres queridos. ¡Permítenos ser parte de tu celebración y descubre por qué Burger House es la opción preferida para eventos importantes!.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
   <main id="main">
 
-    <section id="banner" class="banner">
-      <div class="banner-image-quienes-somos"></div>
-      <div class="banner-content">
-        <h2>¡Quienes Somos!</h2>
-        <p>En Burger House, somos apasionados por las hamburguesas y la buena comida. Desde nuestro humilde comienzo en 2017, nos hemos esforzado por ofrecer a nuestros clientes la mejor experiencia gastronómica en un ambiente acogedor y familiar.</p>
-        <p>Además, nos preocupamos por el medio ambiente y la comunidad. Nos esforzamos por ser una empresa responsable y utilizamos envases ecoamigables para reducir nuestro impacto en el entorno. También colaboramos con organizaciones locales para apoyar iniciativas solidarias y contribuir al desarrollo de nuestra comunidad.</p>
-        <p>¡Te invitamos a visitarnos y descubrir por qué Burger House es mucho más que una hamburguesería! Disfruta de nuestras deliciosas hamburguesas, nuestro ambiente acogedor y el servicio excepcional que nos distingue. ¡Te esperamos con los brazos abiertos!</p>
-      </div>
-    </section>
-    <!-- ======= Events Section ======= -->
-    <section id="events" class="events">
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
       <div class="container">
 
         <div class="section-title">
-          <h2>La historia detras de <span>Burger House</span></h2>
+          <h2>¿Por qué elegir <span>Catering Burger House</span>?</h2>
+          <p>Descubre las razones por las cuales somos la mejor opción para disfrutar de deliciosas hamburguesas.</p>
         </div>
 
-        <div class="events-slider swiper">
-          <div class="swiper-wrapper">
+        <div class="row">
 
-            <div class="swiper-slide">
-              <div class="row event-item">
-                <div class="col-lg-6">
-                  <img src="assets/img/rappi.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Sobrevivimso a la Pandemia</h3>
-                  <div class="price">
-                    <p><span>Gracias a su apoyo!</span></p>
-                  </div>
-                  <p class="fst-italic">
-                    En marzo de 2020, cuando comenzó la pandemia, nos enfrentamos a grandes desafíos. Sin embargo, en lugar de rendirnos, hicimos todo lo posible para adaptarnos y seguir adelante. Gracias a nuestra presencia en TikTok y otras redes sociales, pudimos llegar a un público más amplio y aumentar nuestras ventas a través de aplicaciones de delivery y take away. Fue un esfuerzo conjunto de nuestro equipo y el apoyo inquebrantable de nuestros clientes.
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check-circle"></i> Logramos mantener el local de Plaza Serrano.</li>
-                    <li><i class="bi bi-check-circle"></i> Ganadores del premio "Mejor hamburguesa de Rappi" en el año 2020.</li>
-                    <li><i class="bi bi-check-circle"></i> Implementamos estrictos protocolos de seguridad e higiene para proteger a nuestros clientes y empleados durante la pandemia.</li>
-                  </ul>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="row event-item">
-                <div class="col-lg-6">
-                  <img src="assets/img/hamburguesas.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>El post Pandemia!</h3>
-                  <div class="price">
-                    <p><span>El mejor BOOM!</span></p>
-                  </div>
-                  <p class="fst-italic">
-                    Después de la pandemia, experimentamos un auténtico BOOM. La demanda de nuestras hamburguesas se disparó y nos vimos abrumados por la respuesta positiva de los comensales. Aprovechamos esta oportunidad para mejorar aún más nuestros productos y servicios, manteniendo siempre la calidad y frescura que nos caracteriza.
-                  </p>
-                  <ul>
-                    <li><i class="bi bi-check-circle"></i> Alcanzamos un récord histórico en ventas, superando todas nuestras expectativas.</li>
-                    <li><i class="bi bi-check-circle"></i> Expandimos nuestro menú para satisfacer la creciente demanda, ofreciendo nuevas opciones.</li>
-                    <li><i class="bi bi-check-circle"></i> Establecimos alianzas estratégicas con proveedores locales para garantizar ingredientes frescos y de alta calidad.</li>
-                  </ul>
-              </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="row event-item">
-                <div class="col-lg-6">
-                  <img src="assets/img/burgerhouse.jpg" class="img-fluid" alt="">
-                </div>
-                <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Hamburguesas Creativas y Servicio Excepcional</h3>
-                  <div class="price">
-                    <p><span>Amor por lo que hacemos</span></p>
-                  </div>
-                  <p class="fst-italic">
-                    En Burger House, creemos en la importancia de la creatividad culinaria. Por eso, además de nuestras clásicas hamburguesas, ofrecemos opciones innovadoras y personalizables para que cada cliente pueda crear su hamburguesa perfecta. Ya sea que prefieras una hamburguesa jugosa con queso derretido o una opción vegetariana llena de sabor, tenemos algo para todos los gustos.
-                  </p>
-                  <p>
-                    Pero no se trata solo de hamburguesas deliciosas. Nos enorgullece brindar un servicio excepcional a nuestros clientes. Nuestro equipo amable y atento está siempre dispuesto a hacer que tu visita sea especial y a asegurarse de que te sientas como en casa en Burger House.
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
+          <div class="col-lg-3 col-md-6">
+            <div class="box">
+              <i class="bi bi-cash"></i>
+              <h4>Precios especiales</h4>
+              <p>Ofrecemos precios competitivos y especiales para eventos y casamientos, asegurando una excelente relación calidad-precio. Nuestro objetivo es brindar una experiencia gastronómica de primer nivel sin exceder el presupuesto de nuestros clientes.</p>
+            </div>
           </div>
-          <div class="swiper-pagination"></div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+            <div class="box">
+              <i class="bi bi-cup"></i>
+              <h4>Comida 100% hecha el mismo día</h4>
+              <p>Nos enorgullece garantizar que toda la comida que servimos se prepara fresca y en el mismo día del evento. Utilizamos ingredientes de alta calidad para asegurar un sabor delicioso y una experiencia culinaria memorable para los invitados.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box">
+              <i class="bi bi-gem"></i>
+              <h4>Hamburguesas personalizadas</h4>
+              <p>Nos adaptamos a los gustos y preferencias de nuestros clientes. Podemos personalizar las hamburguesas según los requerimientos dietéticos, preferencias de sabor y restricciones alimentarias de los invitados. Ya sea hamburguesas de carne, pollo, pescado o opciones vegetarianas/veganas, nos aseguramos de que todos los paladares sean satisfechos.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box">
+              <i class="bi bi-emoji-smile"></i>
+              <h4>Variedad de acompañamientos</h4>
+              <p>Además de nuestras deliciosas hamburguesas, ofrecemos una amplia variedad de acompañamientos para complementar el menú. Desde papas fritas caseras hasta ensaladas frescas, podemos ayudar a crear un menú equilibrado y diverso para el evento.</p>
+            </div>
+          </div>
         </div>
-
+        
       </div>
-    </section><!-- End Events Section -->
+      <div class="section-title">
+        <h2>Servicio  <span>profesional y personalizado</span></h2>
+        <p> Nuestro equipo de catering está compuesto por profesionales dedicados que se encargan de todos los detalles. Desde la planificación inicial hasta la entrega y disposición de la comida en el evento, nos aseguramos de ofrecer un servicio impecable y atención personalizada para satisfacer las necesidades de nuestros clientes.</p>
+      </div>
+    </section>
+    <div class="section-title">
+      <h2>Somos <span>Flexibles y nos Adaptamos</span></h2>
+      <p>Entendemos que cada evento es único, por lo que estamos dispuestos a adaptarnos a tus necesidades específicas. Ya sea un casamiento íntimo o un evento corporativo a gran escala, podemos ajustarnos al tamaño, estilo y temática del evento para crear una experiencia culinaria inolvidable.</p>
+    </div>
+  </section>
 
+    <!-- End Why Us Section -->
 
+   
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
